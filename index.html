@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97443513-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-97443513-1');
+</script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yorgv.be - Font-end & Graphic Design</title>
+
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!--FontAwesome pseudo fix-->
+    <script>
+        window.FontAwesomeConfig = {
+            searchPseudoElements: true
+        }
+
+    </script>
+
+    <!-- Font Awesome -->
+    <script defer src="//use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Fancybox-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+
+    <!-- Box -->
+    <link rel="stylesheet" href="//unpkg.com/portfolio-js@latest/dist/portfolio.css" />
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Yorgv.be</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <!--  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <canvas id="noise" class="noise"></canvas>
+
+    <header class="masthead">
+
+        <!-- <object class="printboardbg" data="img/printboardbg.svg" type="image/svg+xml"></object>
+-->
+        <div id="cubecon">
+            <div class="cube">
+                <div class="top"></div>
+                <div class="right"></div>
+                <div class="bottom"></div>
+                <div class="left"></div>
+                <div class="back"></div>
+                <div class="front"></div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid d-flex align-items-center h-100">
+            <div class="row justify-content-center texthor">
+
+                <span>
+                    <h1 class="textglitch1">Yorgv.be</h1>
+                    <br>
+                    <h3 class="textglitch2">Front-end Development & Grafisch Design</h3>
+                    <br>
+                </span>
+                <div class="scrollicon">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <span class="scrolltext">Scroll down</span>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </header>
+
+    <div id="parallax1" class="parallax"></div>
+
+    <section class="flesh" id="services">
+        <img class="bone" src="img/bg-1.jpg" width="100%" height="100%">
+        <div class="container h-100">
+
+            <div class="row justify-content-center texthor">
+                <div class="col-12">
+                    <h2 class="textglitch1">Services</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center texthor">
+
+                <div id="codecol" class="col-xs-12 col-md-6">
+
+                    <a data-toggle="collapse" class="collapsed" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                        <div id="coding">
+                            <i class="fas fa-code fa-5x" aria-hidden="true"></i>
+                            <h6><i class="plusmin d-md-none"></i>CODING</h6>
+                        </div>
+                    </a>
+
+
+                    <div id="collapse1" class="collapse">
+                        <ul>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>HTML5</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>CSS3</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>JavaScript/JQuery</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Hier en daar wat back-end</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Veel gevloek richting de computer</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="designcol" class="col-xs-12 col-md-6">
+
+                    <a data-toggle="collapse" class="collapsed" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        <div id="design">
+                            <i class="fas fa-paint-brush fa-5x" aria-hidden="true"></i>
+                            <h6><i class="plusmin d-md-none" aria-hidden="true"></i>DESIGN</h6>
+                        </div>
+                    </a>
+
+
+                    <div id="collapse2" class="collapse">
+                        <ul>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>UI</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>UX</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Cross-platform</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Branding</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i>Drukwerk</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div id="parallax2" class="parallax"></div>
+
+    <section class="flesh" id="portfolio">
+        <img class="bone" src="img/bg-2.jpg" width="100%" height="100%">
+
+
+        <div class="container h-100">
+            <h2 class="textglitch1">Portfolio</h2>
+            <div class="row justify-content-center">
+                <div class="col-12">
+
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="carousel-item active">
+                                <a data-fancybox data-src="#item1" href="javascript:;"><img class="d-block img-fluid" src="img/rnd-mockup.png" alt="RnD"></a>
+                            </div>
+                            <div id="item1" class="item">
+                                <h3>Branding voor evenement</h3>
+                                <p>Voor dit project wou de klant een volledige branding voor zijn opkomende reeks evenementen. De klant wou het retro-aspect terugvinden in de ontwerpen, zonder in te moeten boeten aan het "deluxe-gevoel". <br>
+                                    <img src="img/Retro Night Deluxe/Retro Night Deluxe.png"><br> Behalve het logo, is er ook gezorgd voor de gedrukte affiches, flyers, sociale media headers tot en met de banners voor de nadarhekken en de tickets.<br>
+                                    <img src="img/Retro Night Deluxe/rnd affiche.jpg">
+                                    <br> De klant was zeer tevreden, en in de toekomst komen er meer dan waarschijnlijk nog samenwerkingen. </p>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <a data-fancybox data-src="#item2" href="javascript:;"><img class="d-block img-fluid" src="img/bonk-mockup.png" alt="Bonk"></a>
+                            </div>
+                            <div id="item2" class="item">
+                                <h3>Logo design</h3>
+                                <img src="img/bonk.png">
+                                <p>Een ontwerp voor een logo van een opstartende eventmanager. De klant wist zeer goed wat hij wou, en opteerde voor een modern en robuust logo. Na wat ideetjes te hebben uitgewerkt zijn we tot dit origineel en herkenbaar ontwerp uitgekomen. Zowel ik als de klant waren zeer tevreden met het resultaat. </p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a data-fancybox data-src="#item3" href="javascript:;"><img class="d-block img-fluid" src="img/b-e-mockup.png" alt="B-entertainment"></a>
+                            </div>
+                            <div id="item3" class="item">
+                                <h3>Website</h3>
+                                <img src="img/b-entertainment.png">
+                                <p>Volledige website voor een event- en artiestenbureau. De klant wenstte een ontwerp met een sidebar. Met het parallax scroll-effect op de header is de aandacht van de bezoeker snel getrokken en scrollt hij vlot de website door. Het verkeer op de website is serieus gestegen, en ook op gebied van SEO haalt de site goede scores. Missie volbracht dus!</p>
+                                <a href="https://www.b-entertainment.be" target="_blank" class="btn">Bekijk website</a>
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="parallax3" class="parallax"></div>
+
+    <section class="flesh" id="contact">
+        <img class="bone" src="img/bg-3.jpg" width="100%" height="100%">
+
+        <div class="container">
+
+            <h2 class="textglitch1">Contact</h2>
+
+            <form action="send_form_email.php" target="_blank" method="post">
+
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="form-name" aria-describedby="Naam" placeholder="Wie ben je?">
+                    <label for="name"><i class="fas fa-user"></i><span>Naam</span></label>
+                </div>
+
+
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" aria-describedby="E-mail" placeholder="voorbeeld@email.com">
+                    <label for="email"><i class="fas fa-at"></i><span>E-mail</span></label>
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" name="message" placeholder="Jouw bericht" rows="1"></textarea>
+                    <label for="message"><i class="fas fa-comment-alt"></i><span>Bericht</span></label>
+                    <div id="closekb" class="d-md-none"><i class="fas fa-check"></i></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Verzenden</button>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 text-center">
+                    <p class="d-none">Lorum</p>
+                </div>
+                <div class="col-xs-12 col-md-4 text-center">
+                    <p class="d-none">Lorum</p>
+                </div>
+                <div class="col-xs-12 col-md-4 text-center">
+                    <p class="d-none">Lorum</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!--Popper-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--Fancybox-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+    <!-- Box -->
+
+    <!--Custom-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
